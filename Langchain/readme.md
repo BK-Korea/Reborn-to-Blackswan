@@ -1,3 +1,27 @@
+(eng)
+# LangChain Study
+
+> Personal study notes. Because these were written quickly, readability may be uneven. I’ll refine examples and content over time.
+
+---
+
+## What is LangChain?
+
+**LangChain** is an open-source framework for quickly building **LLM-based agents and applications**.
+It integrates various models (OpenAI, Anthropic, Google, etc.) and tools/databases, and lets you compose **prompts, chains, memory, and tool calls** to build reliable agents.
+
+---
+
+## Why study LangChain?
+
+**Goal:** Connect multiple APIs and run AI **locally**.
+
+* Experiment locally/in-house by swapping among different LLMs (OpenAI, Anthropic, Google, etc.) via a **pluggable interface**.
+* Build a **RAG pipeline** quickly with standard components to search external knowledge (files, databases, web) and enhance answers.
+* Let agents **automatically call tools** (search, code execution, DB queries, and more) to carry out complex, multi-step tasks.
+* In operations, extend to **tracing/evaluation/observability** (e.g., with LangSmith) for reproducible experiments and iterative improvement.
+
+(kor)
 # LangChain 스터디
 
 > 개인 학습용 정리 문서입니다. 빠르게 기록한 노트라 **가독성이 다소 떨어질 수 있습니다.** 필요 시 예제 코드와 내용 보완할 예정입니다.
