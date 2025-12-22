@@ -1,0 +1,40 @@
+# 거장 인사이트 처리기 의존성
+# Investor Insight Processor Dependencies
+
+# 데이터 처리
+pandas>=1.5.0
+numpy>=1.21.0
+
+# 금융 데이터
+yfinance>=0.2.0
+
+# 웹 크롤링 및 HTTP
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+
+# 자연어 처리 (나중에 사용)
+spacy>=3.4.0
+transformers>=4.20.0
+torch>=1.12.0
+
+# 머신러닝 (나중에 사용)
+scikit-learn>=1.1.0
+scipy>=1.9.0
+
+# 개발 및 테스팅
+pytest>=7.0.0
+black>=22.0.0
+
+# 웹 프레임워크 (나중에 사용)
+fastapi>=0.85.0
+uvicorn>=0.18.0
+
+# 데이터베이스 (나중에 사용)
+sqlalchemy>=1.4.0
+psycopg2-binary>=2.9.0
+
+# 캐싱 (나중에 사용)
+redis>=4.3.0
+
+# 환경 변수 관리
+python-dotenv>=0.19.0

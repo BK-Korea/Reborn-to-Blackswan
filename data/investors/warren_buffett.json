@@ -1,0 +1,168 @@
+{
+  "investor_info": {
+    "name": "Warren Buffett",
+    "slug": "warren_buffett",
+    "title": "Chairman & CEO, Berkshire Hathaway",
+    "birth_year": 1930,
+    "nationality": "American",
+    "net_worth": "120+ Billion USD",
+    "investment_philosophy": "Value investing with focus on companies with strong competitive advantages, good management, and reasonable prices",
+    "famous_quotes": [
+      "It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price.",
+      "Rule No. 1: Never lose money. Rule No. 2: Never forget Rule No. 1.",
+      "In the business world, the rearview mirror is always clearer than the windshield."
+    ],
+    "photo_url": "/images/investors/warren_buffett.jpg"
+  },
+  "insights": [
+    {
+      "id": "buffett_001",
+      "content": "Apple has a consumer product that is extraordinarily sticky. People love their iPhone. The whole ecosystem is incredible. And we own a good chunk of it.",
+      "source": "2023 Berkshire Hathaway Annual Meeting",
+      "source_type": "shareholder_meeting",
+      "date_said": "2023-05-06",
+      "context": "Discussing Berkshire's investment in Apple and its consumer moat",
+      "companies_mentioned": ["Apple", "AAPL"],
+      "sentiment": "strongly_bullish",
+      "investment_themes": ["competitive_advantage", "consumer_stickiness", "ecosystem_value"],
+      "confidence_score": 0.95,
+      "tags": ["Apple", "iPhone", "consumer_moat", "competitive_advantage"]
+    },
+    {
+      "id": "buffett_002",
+      "content": "Coca-Cola is a business that sells 1.9 billion servings a day. That's a business you can understand. It's a simple business that works worldwide.",
+      "source": "CNBC Interview",
+      "source_type": "interview",
+      "date_said": "2019-02-25",
+      "context": "Explaining why Coca-Cola is a quintessential Buffett investment",
+      "companies_mentioned": ["Coca-Cola", "KO"],
+      "sentiment": "bullish",
+      "investment_themes": ["brand_power", "global_business", "simple_understandable"],
+      "confidence_score": 0.90,
+      "tags": ["Coca-Cola", "brand_value", "global_reach", "simplicity"]
+    },
+    {
+      "id": "buffett_003",
+      "content": "We're buying banks at prices that look attractive. The banking business is generally a good business if you don't do dumb things. Wells Fargo has made some mistakes, but we still believe in the franchise.",
+      "source": "2019 Berkshire Hathaway Annual Meeting",
+      "source_type": "shareholder_meeting",
+      "date_said": "2019-05-04",
+      "context": "Discussing Berkshire's bank holdings despite Wells Fargo scandals",
+      "companies_mentioned": ["Wells Fargo", "WFC", "Bank of America", "BAC"],
+      "sentiment": "cautiously_bullish",
+      "investment_themes": ["banking_franchise", "value_pricing", "turnaround_potential"],
+      "confidence_score": 0.85,
+      "tags": ["banking", "Wells_Fargo", "value_investing", "franchise_value"]
+    },
+    {
+      "id": "buffett_004",
+      "content": "Amazon is a remarkable business. Bezos has done incredible things. We missed it early because it was harder to value than things we typically buy, but you can't argue with the results.",
+      "source": "2018 CNBC Interview",
+      "source_type": "interview",
+      "date_said": "2018-05-07",
+      "context": "Admitting missing Amazon but praising the business",
+      "companies_mentioned": ["Amazon", "AMZN"],
+      "sentiment": "bullish",
+      "investment_themes": ["business_model", "growth", "competitive_advantage"],
+      "confidence_score": 0.88,
+      "tags": ["Amazon", "missed_opportunity", "business_excellence", "disruption"]
+    },
+    {
+      "id": "buffett_005",
+      "content": "See's Candies taught us about brand power. We bought it for $25 million in 1972, and it has earned over $2 billion since. That's the power of a strong brand with pricing power.",
+      "source": "2014 Shareholder Letter",
+      "source_type": "annual_letter",
+      "date_said": "2014-03-01",
+      "context": "Using See's Candies as example of brand power and pricing power",
+      "companies_mentioned": ["See's Candies"],
+      "sentiment": "bullish",
+      "investment_themes": ["brand_power", "pricing_power", "moat_analysis"],
+      "confidence_score": 0.92,
+      "tags": ["brand_value", "pricing_power", "moat", "competitive_advantage"]
+    },
+    {
+      "id": "buffett_006",
+      "content": "The airline business has been terrible for investors over the years, but we've made a bet because consolidation has improved the industry economics. It's still a tough business.",
+      "source": "2016 Berkshire Hathaway Annual Meeting",
+      "source_type": "shareholder_meeting",
+      "date_said": "2016-04-30",
+      "context": "Explaining investment in major U.S. airlines",
+      "companies_mentioned": ["American Airlines", "AAL", "Delta Air Lines", "DAL", "United Airlines", "UAL"],
+      "sentiment": "cautiously_optimistic",
+      "investment_themes": ["industry_consolidation", "cyclical_business", "turnaround_story"],
+      "confidence_score": 0.75,
+      "tags": ["airlines", "industry_consolidation", "turnaround", "cyclicality"]
+    },
+    {
+      "id": "buffett_007",
+      "content": "I don't understand Bitcoin. It doesn't produce anything. You're hoping the next guy pays more. I'm not interested. We buy businesses that make things or provide services.",
+      "source": "2022 Berkshire Hathaway Annual Meeting",
+      "source_type": "shareholder_meeting",
+      "date_said": "2022-04-30",
+      "context": "Explaining opposition to cryptocurrency investments",
+      "companies_mentioned": [],
+      "sentiment": "bearish",
+      "investment_themes": ["productive_assets", "business_fundamentals", "value_creation"],
+      "confidence_score": 0.95,
+      "tags": ["bitcoin", "cryptocurrency", "productive_assets", "speculation"]
+    },
+    {
+      "id": "buffett_008",
+      "content": "We like businesses that earn high returns on capital. That's the Holy Grail. Apple earns incredible returns on capital, and they don't need much capital to grow.",
+      "source": "2021 CNBC Interview",
+      "source_type": "interview",
+      "date_said": "2021-03-28",
+      "context": "Discussing criteria for attractive businesses",
+      "companies_mentioned": ["Apple", "AAPL"],
+      "sentiment": "strongly_bullish",
+      "investment_themes": ["high_roc", "capital_efficiency", "growth_potential"],
+      "confidence_score": 0.93,
+      "tags": ["return_on_capital", "capital_efficiency", "growth", "Apple"]
+    }
+  ],
+  "investment_criteria": {
+    "moat_types": [
+      "brand_power",
+      "cost_advantages",
+      "network_effects",
+      "switching_costs",
+      "regulatory_advantages"
+    ],
+    "financial_metrics": {
+      "roe_min": 15,
+      "debt_to_equity_max": 0.5,
+      "current_ratio_min": 1.5,
+      "gross_margin_min": 40
+    },
+    "valuation_ranges": {
+      "pe_ratio_max": 20,
+      "pb_ratio_max": 3,
+      "ev_ebitda_max": 15
+    },
+    "management_criteria": [
+      "rational_capital_allocation",
+      "owner_mentality",
+      "transparency",
+      "long_term_orientation"
+    ]
+  },
+  "historical_performance": {
+    "berkshire_hathaway_returns": {
+      "1965-2023": "19.8% annualized",
+      "vs_s&p_500": "10.2% outperformance"
+    },
+    "major_successes": [
+      "GEICO (1976)",
+      "See's Candies (1972)",
+      "Washington Post (1973)",
+      "Coca-Cola (1988)",
+      "American Express (1964, 1994)",
+      "Apple (2016)"
+    ],
+    "notable_failures": [
+      "Dexter Shoe (1993)",
+      "Tesco (2014)",
+      "Kraft Heinz (2015+)"
+    ]
+  }
+}

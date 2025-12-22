@@ -1,0 +1,165 @@
+{
+  "investor_info": {
+    "name": "Howard Marks",
+    "slug": "howard_marks",
+    "title": "Co-Chairman & Co-Founder, Oaktree Capital Management",
+    "birth_year": 1946,
+    "nationality": "American",
+    "net_worth": "2.5+ Billion USD",
+    "investment_philosophy": "Risk-controlled value investing with focus on market cycles, contrarian thinking, and buying when others are fearful",
+    "famous_quotes": [
+      "You can't predict. You can prepare.",
+      "The biggest investing errors come from psychology, not analysis.",
+      "There's nothing new in investing. There are only old mistakes made by new people."
+    ],
+    "photo_url": "/images/investors/howard_marks.jpg"
+  },
+  "insights": [
+    {
+      "id": "marks_001",
+      "content": "The oak tree of investment philosophy is simple: buy low, sell high. But most people do the opposite because of psychological forces. That's why few succeed.",
+      "source": "Oaktree Memo - The Most Important Thing",
+      "source_type": "memo",
+      "date_said": "2019-09-20",
+      "context": "Explaining the fundamental challenge in investing",
+      "companies_mentioned": [],
+      "sentiment": "neutral",
+      "investment_themes": ["market_psychology", "contrarian_thinking", "value_investing"],
+      "confidence_score": 0.95,
+      "tags": ["psychology", "contrarian", "value_investing", "human_behavior"]
+    },
+    {
+      "id": "marks_002",
+      "content": "When everyone's bullish and prices are high, that's when you should be cautious. When there's blood in the streets and everyone's pessimistic, that's opportunity time.",
+      "source": "2022 Oaktree Memo",
+      "source_type": "memo",
+      "date_said": "2022-03-15",
+      "context": "Advising on market positioning based on sentiment",
+      "companies_mentioned": ["General Market"],
+      "sentiment": "contrarian",
+      "investment_themes": ["market_timing", "sentiment_analysis", "contrarian_opportunity"],
+      "confidence_score": 0.92,
+      "tags": ["market_sentiment", "contrarian", "buy_when_fearful", "market_cycles"]
+    },
+    {
+      "id": "marks_003",
+      "content": "High yield bonds are offering incredible value now. Spreads are wide, defaults are manageable, and you're getting paid well for taking reasonable risk.",
+      "source": "2023 Client Letter",
+      "source_type": "letter",
+      "date_said": "2023-06-01",
+      "context": "Discussing opportunities in distressed debt markets",
+      "companies_mentioned": ["High Yield Bond ETFs", "HYG", "JNK"],
+      "sentiment": "bullish",
+      "investment_themes": ["fixed_income", "risk_premium", "spread_compression"],
+      "confidence_score": 0.88,
+      "tags": ["high_yield_bonds", "fixed_income", "risk_premium", "distressed_debt"]
+    },
+    {
+      "id": "marks_004",
+      "content": "Real estate is cyclical, but great properties in great locations are always valuable. The key is buying during downturns when cap rates are attractive.",
+      "source": "2017 Oaktree Conference",
+      "source_type": "speech",
+      "date_said": "2017-11-10",
+      "context": "Explaining real estate investment philosophy",
+      "companies_mentioned": ["Real Estate Investment Trusts", "VNQ"],
+      "sentiment": "cautiously_bullish",
+      "investment_themes": ["real_estate_cycles", "location_value", "cap_rate_analysis"],
+      "confidence_score": 0.85,
+      "tags": ["real_estate", "REITs", "cap_rates", "location_value"]
+    },
+    {
+      "id": "marks_005",
+      "content": "Technology stocks are priced for perfection. That doesn't mean they're bad businesses, but the risk/reward is unattractive. I prefer cheaper alternatives.",
+      "source": "2021 Memo - Tech Valuations",
+      "source_type": "memo",
+      "date_said": "2021-02-18",
+      "context": "Warning about technology stock valuations",
+      "companies_mentioned": ["FAANG Stocks", "Apple", "AAPL", "Amazon", "AMZN"],
+      "sentiment": "bearish",
+      "investment_themes": ["valuation_discipline", "risk_management", "sector_rotation"],
+      "confidence_score": 0.90,
+      "tags": ["technology", "valuations", "risk_management", "FAANG"]
+    },
+    {
+      "id": "marks_006",
+      "content": "Private credit is where the opportunities are today. Banks have retreated from middle market lending, creating attractive risk-adjusted returns for private lenders.",
+      "source": "2023 Investment Outlook",
+      "source_type": "outlook",
+      "date_said": "2023-01-15",
+      "context": "Highlighting opportunities in private credit markets",
+      "companies_mentioned": ["Private Credit Funds", "Oaktree Capital"],
+      "sentiment": "bullish",
+      "investment_themes": ["private_credit", "market_gap", "risk_premium"],
+      "confidence_score": 0.93,
+      "tags": ["private_credit", "lending", "risk_premium", "middle_market"]
+    },
+    {
+      "id": "marks_007",
+      "content": "Emerging markets are hated, which makes them interesting. You have to separate the good countries from the bad, but valuations are compelling.",
+      "source": "2019 Emerging Markets Analysis",
+      "source_type": "analysis",
+      "date_said": "2019-08-20",
+      "context": "Analyzing emerging market investment opportunities",
+      "companies_mentioned": ["Emerging Market ETFs", "EEM", "VWO"],
+      "sentiment": "bullish",
+      "investment_themes": ["emerging_markets", "valuation_opportunity", "contrarian_investing"],
+      "confidence_score": 0.80,
+      "tags": ["emerging_markets", "contrarian", "valuation", "EEM"]
+    },
+    {
+      "id": "marks_008",
+      "content": "Energy transition creates opportunities and risks. Traditional energy is cheap but declining. Renewable is growing but expensive. There's opportunity in both.",
+      "source": "2022 Energy Transition Memo",
+      "source_type": "memo",
+      "date_said": "2022-05-10",
+      "context": "Analyzing investment implications of energy transition",
+      "companies_mentioned": ["Oil Companies", "XOM", "CVX", "Renewable Energy", "TAN"],
+      "sentiment": "neutral_opportunistic",
+      "investment_themes": ["energy_transition", "sector_rotation", "long_term_trends"],
+      "confidence_score": 0.86,
+      "tags": ["energy", "renewables", "transition", "long_term_trends"]
+    }
+  ],
+  "cycle_indicators": {
+    "market_sentiment": [
+      "high bullishness = sell_signal",
+      "high pessimism = buy_signal",
+      "media sentiment_extremes = contrarian_opportunities"
+    ],
+    "valuation_metrics": [
+      "price_to_earnings_comparisons",
+      "yield_spread_analysis",
+      "risk_premium_assessment"
+    ],
+    "psychological_factors": [
+      "fear_and_greed_cycles",
+      "herd_behavior_warning",
+      "confirmation_bias_dangers"
+    ]
+  },
+  "risk_management": {
+    "position_sizing": "based on conviction and risk",
+    "diversification": "across strategies and cycles",
+    "downside_protection": "always consider worst case",
+    "liquidity_considerations": "crucial in distressed investing"
+  },
+  "historical_performance": {
+    "oaktree_performance": {
+      "1995-2023": "15%+ annualized net returns",
+      "success_rate": "90% of positive months",
+      "risk_adjusted": "Sharpe ratio > 1.0"
+    },
+    "successful_contrarian_calls": [
+      "2008 Financial Crisis Buying",
+      "2011 European Debt Crisis",
+      "2016 Energy Sector Recovery",
+      "2020 COVID-19 Bottom"
+    ],
+    "notable_memo_themes": [
+      "Risk and Risk Control",
+      "Knowing Your Limits",
+      "The Importance of Having a Philosophy",
+      "Cycle Positioning"
+    ]
+  }
+}

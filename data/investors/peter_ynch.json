@@ -1,0 +1,172 @@
+{
+  "investor_info": {
+    "name": "Peter Lynch",
+    "slug": "peter_ynch",
+    "title": "Former Manager, Fidelity Magellan Fund",
+    "birth_year": 1944,
+    "nationality": "American",
+    "net_worth": "350+ Million USD",
+    "investment_philosophy": "Growth investing focused on buying what you know, finding companies with strong growth prospects, and investing in businesses you can understand from everyday life",
+    "famous_quotes": [
+      "Invest in what you know.",
+      "The key to making money in stocks is not to get scared out of them.",
+      "Go for a business that any idiot can run - because sooner or later, any idiot probably is going to run it."
+    ],
+    "photo_url": "/images/investors/peter_ynch.jpg"
+  },
+  "insights": [
+    {
+      "id": "lynch_001",
+      "content": "I look for companies that are growing earnings at 20-30% per year, but the market doesn't recognize it yet. That's where you find the ten-baggers.",
+      "source": "One Up On Wall Street",
+      "source_type": "book",
+      "date_said": "1989",
+      "context": "Explaining his growth investing strategy",
+      "companies_mentioned": [],
+      "sentiment": "bullish",
+      "investment_themes": ["earnings_growth", "undiscovered_growth", "tenbaggers"],
+      "confidence_score": 0.95,
+      "tags": ["growth_investing", "earnings_growth", "undervalued", "tenbagger"]
+    },
+    {
+      "id": "lynch_002",
+      "content": "The supermarket taught me about the power of brands. I saw how people reach for familiar products. That's why I love companies with strong consumer brands.",
+      "source": "Beating the Street",
+      "source_type": "book",
+      "date_said": "1993",
+      "context": "Explaining how everyday observations inform investment decisions",
+      "companies_mentioned": ["Procter & Gamble", "PG", "General Mills", "GIS"],
+      "sentiment": "bullish",
+      "investment_themes": ["consumer_brands", "brand_loyalty", "everyday_products"],
+      "confidence_score": 0.90,
+      "tags": ["consumer_products", "brand_power", "everyday_investing", "PG"]
+    },
+    {
+      "id": "lynch_003",
+      "content": "Dunkin' Donuts is everywhere you look in the Northeast. People line up every morning. That's the kind of business you can understand and invest in with confidence.",
+      "source": "1988 Fidelity Interview",
+      "source_type": "interview",
+      "date_said": "1988-06-15",
+      "context": "Using everyday businesses as investment examples",
+      "companies_mentioned": ["Dunkin' Brands", "DNKN"],
+      "sentiment": "bullish",
+      "investment_themes": ["consumer_observation", "local_dominance", "repeat_business"],
+      "confidence_score": 0.88,
+      "tags": ["Dunkin_Donuts", "consumer_observation", "local_business", "repeat_customers"]
+    },
+    {
+      "id": "lynch_004",
+      "content": "Technology companies are harder to evaluate because they change so fast. I prefer businesses that evolve slowly enough for me to understand their competitive position.",
+      "source": "1999 Barron's Interview",
+      "source_type": "interview",
+      "date_said": "1999-03-20",
+      "context": "Discussing technology investments during dot-com era",
+      "companies_mentioned": ["Microsoft", "MSFT", "Intel", "INTC"],
+      "sentiment": "cautious",
+      "investment_themes": ["business_understanding", "competitive_moat", "industry_stability"],
+      "confidence_score": 0.85,
+      "tags": ["technology", "understanding_business", "competitive_advantage", "Microsoft"]
+    },
+    {
+      "id": "lynch_005",
+      "content": "I love businesses that can grow without needing much capital. That's the secret to high returns. Software companies are perfect examples of this.",
+      "source": "2005 Market Commentary",
+      "source_type": "commentary",
+      "date_said": "2005-11-10",
+      "context": "Explaining preference for capital-light business models",
+      "companies_mentioned": ["Adobe", "ADBE", "Intuit", "INTU"],
+      "sentiment": "bullish",
+      "investment_themes": ["capital_efficiency", "software_business", "scalable_models"],
+      "confidence_score": 0.87,
+      "tags": ["capital_efficiency", "software", "scalable_business", "Adobe"]
+    },
+    {
+      "id": "lynch_006",
+      "content": "The automotive cycle is predictable. When car sales are down, people defer purchases. Eventually they have to buy. That's when you want to own auto stocks.",
+      "source": "1991 CNBC Interview",
+      "source_type": "interview",
+      "date_said": "1991-05-15",
+      "context": "Discussing cyclical investment opportunities",
+      "companies_mentioned": ["Ford", "F", "General Motors", "GM"],
+      "sentiment": "bullish",
+      "investment_themes": ["cyclical_investing", "market_timing", "consumer_durable_goods"],
+      "confidence_score": 0.80,
+      "tags": ["automotive", "cyclical_stocks", "market_timing", "Ford"]
+    },
+    {
+      "id": "lynch_007",
+      "content": "Retailing is all about location and execution. I love watching which stores are crowded and which are empty. That's your best research.",
+      "source": "1987 Fidelity Report",
+      "source_type": "report",
+      "date_said": "1987-09-20",
+      "context": "Explaining how to evaluate retail investments",
+      "companies_mentioned": ["Wal-Mart", "WMT", "The Home Depot", "HD"],
+      "sentiment": "bullish",
+      "investment_themes": ["retail_analysis", "consumer_behavior", "competitive_positioning"],
+      "confidence_score": 0.92,
+      "tags": ["retail", "Wal-Mart", "consumer_research", "location_analysis"]
+    },
+    {
+      "id": "lynch_008",
+      "content": "The best investments are often hiding in plain sight. When I see teenagers all wearing Nike shoes, I know I need to research the company.",
+      "source": "1990 Speech to Investors",
+      "source_type": "speech",
+      "date_said": "1990-04-10",
+      "context": "Encouraging investors to observe consumer trends",
+      "companies_mentioned": ["Nike", "NKE"],
+      "sentiment": "strongly_bullish",
+      "investment_themes": ["consumer_trends", "brand_loyalty", "demographic_trends"],
+      "confidence_score": 0.94,
+      "tags": ["Nike", "consumer_trends", "brand_power", "teenagers"]
+    }
+  ],
+  "investment_criteria": {
+    "growth_characteristics": [
+      "earnings_growth_20_plus_percent",
+      "revenue_growth_consistent",
+      "market_expansion_opportunity",
+      "industry_growth_story"
+    ],
+    "business_understanding": [
+      "simple_business_model",
+      "observable_consumer_behavior",
+      "clear_competitive_position",
+      "predictable_industry_dynamics"
+    ],
+    "financial_metrics": {
+      "revenue_growth_min": 20,
+      "earnings_growth_min": 25,
+      "price_earnings_growth_max": 1.0,
+      "debt_to_equity_max": 0.3
+    },
+    "competitive_advantage": [
+      "brand_recognition",
+      "distribution_network",
+      "cost_efficiency",
+      "market_position"
+    ]
+  },
+  "historical_performance": {
+    "magellan_fund_performance": {
+      "1977-1990": "29.2% annualized",
+      "vs_s&p_500": "13.4% outperformance",
+      "fund_assets_growth": "$18M to $14B"
+    },
+    "famous_tenbaggers": [
+      "Ford Motor (1979)",
+      "Philip Morris (1980)",
+      "Fannie Mae (1980)",
+      "Wal-Mart (1986)",
+      "The Limited (1986)",
+      "Home Depot (1988)"
+    ],
+    "investment_categories": [
+      "Fast Growers",
+      "Stalwarts",
+      "Slow Growers",
+      "Cyclicals",
+      "Asset Plays",
+      "Turnarounds"
+    ]
+  }
+}

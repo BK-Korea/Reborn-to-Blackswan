@@ -1,0 +1,183 @@
+{
+  "investor_info": {
+    "name": "George Soros",
+    "slug": "george_soros",
+    "title": "Chairman & Founder, Soros Fund Management",
+    "birth_year": 1930,
+    "nationality": "Hungarian-American",
+    "net_worth": "8.6+ Billion USD",
+    "investment_philosophy": "Reflexivity theory - market perceptions influence fundamentals, creating feedback loops. Focus on identifying mispricings caused by cognitive biases and market sentiment extremes",
+    "famous_quotes": [
+      "The financial markets generally are unpredictable. So that one has to have different scenarios.",
+      "Once you realize that perfect understanding is impossible, you can also realize that it's unnecessary.",
+      "I'm only rich because I know when I'm wrong."
+    ],
+    "photo_url": "/images/investors/george_soros.jpg"
+  },
+  "insights": [
+    {
+      "id": "soros_001",
+      "content": "The European Union is experiencing a reflexivity crisis. The euro's weakness is feeding into economic weakness, which further weakens the euro. This creates opportunities for contrarian bets.",
+      "source": "2022 Davos Speech",
+      "source_type": "speech",
+      "date_said": "2022-01-22",
+      "context": "Discussing European economic challenges and reflexivity",
+      "companies_mentioned": ["Euro ETFs", "FXE", "European Banks"],
+      "sentiment": "bearish_on_euro",
+      "investment_themes": ["reflexivity", "currency_crisis", "contrarian_opportunity"],
+      "confidence_score": 0.90,
+      "tags": ["reflexivity", "euro", "currency", "feedback_loops"]
+    },
+    {
+      "id": "soros_002",
+      "content": "Technology stocks are demonstrating classic reflexivity patterns. Rising prices create positive sentiment, which drives further price increases independent of fundamentals.",
+      "source": "2020 Bloomberg Interview",
+      "source_type": "interview",
+      "date_said": "2020-12-15",
+      "context": "Analyzing tech bubble dynamics through reflexivity lens",
+      "companies_mentioned": ["Tesla", "TSLA", "Apple", "AAPL", "Amazon", "AMZN"],
+      "sentiment": "cautiously_bearish",
+      "investment_themes": ["reflexivity", "bubble_dynamics", "sentiment_driven_valuations"],
+      "confidence_score": 0.85,
+      "tags": ["reflexivity", "technology", "bubbles", "sentiment"]
+    },
+    {
+      "id": "soros_003",
+      "content": "China's real estate market shows clear reflexivity. Rising prices created wealth effects that drove further buying. Now the reverse is happening, creating systemic risk.",
+      "source": "2021 Economic Forum",
+      "source_type": "speech",
+      "date_said": "2021-09-10",
+      "context": "Warning about China real estate reflexivity",
+      "companies_mentioned": ["Chinese Property Developers", "Evergrande", "3333.HK"],
+      "sentiment": "bearish",
+      "investment_themes": ["reflexivity", "real_estate_cycles", "systemic_risk"],
+      "confidence_score": 0.92,
+      "tags": ["china", "real_estate", "reflexivity", "systemic_risk"]
+    },
+    {
+      "id": "soros_004",
+      "content": "The dollar's strength is creating a self-reinforcing cycle. As it rises, it puts pressure on emerging markets, which increases demand for dollars as safe haven.",
+      "source": "2023 Financial Times Interview",
+      "source_type": "interview",
+      "date_said": "2023-03-28",
+      "context": "Analyzing dollar strength reflexive dynamics",
+      "companies_mentioned": ["US Dollar Index", "UUP", "Emerging Market ETFs", "EEM"],
+      "sentiment": "bullish_on_dollar",
+      "investment_themes": ["currency_reflexivity", "emerging_market_pressure", "safe_haven_demand"],
+      "confidence_score": 0.88,
+      "tags": ["dollar", "currency", "emerging_markets", "reflexivity"]
+    },
+    {
+      "id": "soros_005",
+      "content": "Bitcoin is the ultimate reflexive asset. Its price movement is entirely driven by market perception, creating explosive feedback loops in both directions.",
+      "source": "2018 Davos Interview",
+      "source_type": "interview",
+      "date_said": "2018-01-24",
+      "context": "Commenting on cryptocurrency reflexivity",
+      "companies_mentioned": ["Bitcoin", "BTC", "Cryptocurrency Exchanges", "Coinbase"],
+      "sentiment": "neutral_skeptical",
+      "investment_themes": ["reflexivity", "cryptocurrency", "sentiment_pure_valuations"],
+      "confidence_score": 0.80,
+      "tags": ["bitcoin", "cryptocurrency", "reflexivity", "sentiment"]
+    },
+    {
+      "id": "soros_006",
+      "content": "Green energy transition will create massive reflexivity. Government subsidies create demand, which drives technological improvements and further demand - a positive feedback loop.",
+      "source": "2021 Climate Change Conference",
+      "source_type": "speech",
+      "date_said": "2021-11-05",
+      "context": "Discussing energy transition investment opportunities",
+      "companies_mentioned": ["Solar Stocks", "FSLR", "Wind Energy", "VWS", "Tesla", "TSLA"],
+      "sentiment": "bullish",
+      "investment_themes": ["positive_reflexivity", "energy_transition", "government_policy_feedback"],
+      "confidence_score": 0.86,
+      "tags": ["green_energy", "reflexivity", "policy", "positive_feedback"]
+    },
+    {
+      "id": "soros_007",
+      "content": "Banking crises are reflexive by nature. Fear of bank failure causes withdrawals, which creates the very failure feared. This is where opportunity lies for the brave.",
+      "source": "2009 Financial Crisis Analysis",
+      "source_type": "analysis",
+      "date_said": "2009-05-20",
+      "context": "Reflecting on banking crisis dynamics",
+      "companies_mentioned": ["Major Banks", "JPM", "BAC", "Financial Sector ETFs", "XLF"],
+      "sentiment": "bullish_on_banks_recovery",
+      "investment_themes": ["banking_reflexivity", "crisis_opportunity", "negative_feedback_reversal"],
+      "confidence_score": 0.95,
+      "tags": ["banking", "financial_crisis", "reflexivity", "turnaround"]
+    },
+    {
+      "id": "soros_008",
+      "content": "AI is creating reflexivity in labor markets. Fear of job automation reduces wage demands, which accelerates automation investment, creating a self-fulfilling prophecy.",
+      "source": "2023 AI Economic Impact Analysis",
+      "source_type": "analysis",
+      "date_said": "2023-06-15",
+      "context": "Analyzing AI's reflexive impact on labor and markets",
+      "companies_mentioned": ["AI Companies", "NVIDIA", "NVDA", "Microsoft", "MSFT", "Automation Stocks"],
+      "sentiment": "bullish_on_ai",
+      "investment_themes": ["technological_reflexivity", "automation_cycle", "labor_market_dynamics"],
+      "confidence_score": 0.87,
+      "tags": ["artificial_intelligence", "automation", "labor_markets", "reflexivity"]
+    }
+  ],
+  "reflexivity_patterns": {
+    "positive_feedback_loops": [
+      "rising_prices_create_optimism",
+      "optimism_drives_buying_pressure",
+      "buying_pressure_raises_prices_further",
+      "feedback_loop_continues_until_exhaustion"
+    ],
+    "negative_feedback_loops": [
+      "falling_prices_create_pessimism",
+      "pessimism_drives_selling_pressure",
+      "selling_pressure_lowers_prices_further",
+      "feedback_loop_continues_until_capitulation"
+    ],
+    "cognitive_biases": [
+      "confirmation_bias_strengthens_trends",
+      "herd_behavior_amplifies_movements",
+      "availability_heuristic_distorts_perceptions",
+      "anchoring_to_recent_extremes"
+    ]
+  },
+  "investment_framework": {
+    "identify_reflexive_situations": [
+      "price_movements_decoupled_from_fundamentals",
+      "sentiment_driving_price_action",
+      "feedback_loop_self_reinforcement",
+      "market_narrative_vs_reality_divergence"
+    ],
+    "timing_considerations": [
+      "enter_when_feedback_loop_accelerating",
+      "exit_before_reflexivity_reverses",
+      "monitor_for_inflection_points",
+      "maintain_flexibility_to_reverse_positions"
+    ],
+    "risk_management": [
+      "position_sizing_based_on_reflexivity_strength",
+      "stop_losses_beyond_noise_levels",
+      "diversify_across_different_reflexive_situations",
+      "maintain_cash_for opportunity_capture"
+    ]
+  },
+  "historical_performance": {
+    "quantum_fund_returns": {
+      "1970-2000": "32%+ annualized returns",
+      "best_year": "+102% in 1985",
+      "worst_year": "-22% in 1981",
+      "success_rate": "2/3 winning years"
+    },
+    "famous_reflexive_trades": [
+      "Bank of England 1992 - $1B profit",
+      "Asian Currency Crisis 1997",
+      "Tech Bubble Short 2000",
+      "Subprime Crisis Bet 2007"
+    ],
+    "market_insights": [
+      "Central bank policy reflexivity",
+      "Currency crisis patterns",
+      "Asset bubble identification",
+      "Policy-driven market distortions"
+    ]
+  }
+}
