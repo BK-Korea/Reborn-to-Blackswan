@@ -163,6 +163,24 @@ async def health_check():
     """헬스 체크"""
     return {"status": "healthy", "service": "stockoracle-api"}
 
+@app.get("/healthz")
+async def health_check_z():
+    """Alternative health check endpoint"""
+    return {"status": "healthy", "service": "stockoracle-api"}
+
+@app.get("/")
+async def root():
+    """API 상태 확인"""
+    return {
+        "status": "🚀 StockOracle API is running!",
+        "version": "1.0.0",
+        "endpoints": {
+            "analyze": "/api/analyze",
+            "investors": "/api/investors",
+            "health": "/health"
+        }
+    }
+
 @app.get("/api/investors")
 async def get_investors():
     """사용 가능한 거장 투자자 목록"""
