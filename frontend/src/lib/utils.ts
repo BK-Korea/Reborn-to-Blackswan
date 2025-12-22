@@ -1,7 +1,6 @@
-import { type ClassValue, clsx } from 'clsx';
-
-export function cn(...inputs: ClassValue[]) {
-  return clsx(inputs);
+// Simple utility function to combine class names
+export function cn(...classes: string[]): string {
+  return classes.filter(Boolean).join(' ');
 }
 
 export function formatCurrency(amount: number, currency: string = 'USD'): string {
