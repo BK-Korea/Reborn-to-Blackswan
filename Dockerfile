@@ -6,10 +6,12 @@ WORKDIR /stock
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONPATH=/stock
 
-# Install Node.js for frontend build
-RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
-    && apt-get install -y nodejs gcc \
-    && apt-get clean
+# Install system dependencies
+RUN apt-get update && \
+    apt-get install -y curl && \
+    curl -fsSL https://deb.nodesource.com/setup_18.x | bash - && \
+    apt-get install -y nodejs gcc && \
+    apt-get clean
 
 # Copy and install Python dependencies
 COPY requirements.txt .
