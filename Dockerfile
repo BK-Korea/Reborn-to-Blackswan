@@ -20,7 +20,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY frontend/ ./frontend/
 RUN cd frontend && npm install
 
-# Build frontend
+# Build frontend - Next.js static export
 RUN cd frontend && npm run build
 
 # Copy the rest of the application code

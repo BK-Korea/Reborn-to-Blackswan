@@ -66,17 +66,21 @@ async def get_investors():
     ]
     return {"investors": investors}
 
-# 루트 경로 - React 앱 서빙
-@app.get("/")
-async def read_root():
-    """프론트엔드 라우팅을 위한 catch-all"""
-    return FileResponse('frontend/dist/index.html')
+# 정적 파일 서빙 - Next.js 정적 빌드를 위한 경로 수정
+if os.path.exists("frontend/out"):
+    # Next.js export build
+    app.mount("/static", StaticFiles(directory="frontend/out/_next/static"), name="static")
 
-# 정적 파일 서빙
-if os.path.exists("frontend/dist"):
-    app.mount("/static", StaticFiles(directory="frontend/dist/static"), name="static")
+    @app.get("/")
+    async def read_root():
+        return FileResponse('frontend/out/index.html')
+
+    @app.get("/{path:path}")
+    async def catch_all(path: str):
+        # React 라우팅을 위한 catch-all
+        return FileResponse('frontend/out/index.html')
 else:
-    # 빌드된 파일이 없을 경우 간단한 HTML 반환
+    # 빌드된 파일이 없을 경우 간단한 API 응답
     @app.get("/")
     async def read_root():
         return {
