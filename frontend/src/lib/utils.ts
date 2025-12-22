@@ -1,6 +1,12 @@
-// Simple utility function to combine class names
-export function cn(...classes: string[]): string {
-  return classes.filter(Boolean).join(' ');
+// Utility function to combine class names (handles strings, booleans, undefined, etc.)
+export function cn(...inputs: any[]): string {
+  return inputs
+    .filter(Boolean)
+    .map(input => {
+      if (typeof input === 'string') return input;
+      return '';
+    })
+    .join(' ');
 }
 
 export function formatCurrency(amount: number, currency: string = 'USD'): string {
