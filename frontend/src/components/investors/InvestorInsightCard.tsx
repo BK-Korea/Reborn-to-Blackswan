@@ -31,13 +31,13 @@ const sourceTypeLabels = {
   tweet: 'Tweet',
 };
 
-export const InvestorInsightCard: React.FC<InvestorInsightCardProps> = ({
+export function InvestorInsightCard({
   insight,
   investor,
   showInvestor = true,
   compact = false,
   className,
-}) => {
+}: InvestorInsightCardProps) {
   const Icon = sourceTypeIcons[insight.sourceType] || MessageCircle;
 
   const sentimentStr = String(insight.sentiment);

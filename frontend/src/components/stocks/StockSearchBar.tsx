@@ -13,13 +13,13 @@ interface StockSearchBarProps {
   placeholder?: string;
 }
 
-export const StockSearchBar: React.FC<StockSearchBarProps> = ({
+export function StockSearchBar({
   onSearch,
   onStockSelect,
   suggestions = [],
   isLoading = false,
   placeholder = "Search stocks... (e.g., AAPL, Apple)",
-}) => {
+}: StockSearchBarProps) {
   const [query, setQuery] = useState('');
   const [showSuggestions, setShowSuggestions] = useState(false);
 
