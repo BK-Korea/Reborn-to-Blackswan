@@ -4,7 +4,7 @@ import React from 'react';
 import { StockAnalysis, InsightMatch } from '@/types';
 import { TrendingUp, TrendingDown, DollarSign, BarChart3, Users, Target, AlertTriangle } from 'lucide-react';
 import { formatCurrency, formatPercent, formatMarketCap, getRecommendationColor } from '@/lib/utils';
-import InvestorInsightCard from '@/components/investors/InvestorInsightCard';
+import { InvestorInsightCard } from '@/components/investors/InvestorInsightCard';
 
 interface StockAnalysisDashboardProps {
   analysis: StockAnalysis;
