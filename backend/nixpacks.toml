@@ -1,0 +1,14 @@
+# Nixpacks configuration for Backend only (when Root Directory = stock/backend)
+
+[phases.setup]
+nixPkgs = ["python311Full"]
+
+[phases.install]
+cmds = [
+    "python3 -m pip install --upgrade pip setuptools wheel",
+    "python3 -m pip install -r requirements.txt"
+]
+
+[start]
+cmd = "python3 -m uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000}"
+
