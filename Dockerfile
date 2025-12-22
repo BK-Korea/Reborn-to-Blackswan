@@ -6,23 +6,28 @@ WORKDIR /stock
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONPATH=/stock
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    gcc \
-    && rm -rf /var/lib/apt/lists/*
+# Install Node.js for frontend build
+RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
+    && apt-get install -y nodejs gcc \
+    && apt-get clean
 
-# Copy requirements first for better caching
+# Copy and install Python dependencies
 COPY requirements.txt .
-
-# Install Python dependencies
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the application code
+# Copy frontend and install dependencies
+COPY frontend/ ./frontend/
+RUN cd frontend && npm install
+
+# Build frontend
+RUN cd frontend && npm run build
+
+# Copy the rest of the application code
 COPY . .
 
 # Expose port
 EXPOSE 8000
 
-# Change to stock directory and run the application
+# Command to run the application
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

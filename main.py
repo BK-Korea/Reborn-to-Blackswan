@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-🚀 StockOracle FastAPI Backend
-Railway 배포용 API 서버
+🚀 StockOracle Full-Stack Application
+Railway 배포용 프론트엔드 + 백엔드
 """
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 import os
 
 app = FastAPI(
@@ -23,18 +25,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.get("/")
-async def root():
-    """API 상태 확인"""
-    return {
-        "status": "🚀 StockOracle API is running!",
-        "version": "1.0.0",
-        "endpoints": {
-            "health": "/health",
-            "investors": "/api/investors"
-        }
-    }
-
+# API 엔드포인트들
 @app.get("/health")
 async def health_check():
     """헬스 체크"""
@@ -74,6 +65,28 @@ async def get_investors():
         }
     ]
     return {"investors": investors}
+
+# 루트 경로 - React 앱 서빙
+@app.get("/")
+async def read_root():
+    """프론트엔드 라우팅을 위한 catch-all"""
+    return FileResponse('frontend/dist/index.html')
+
+# 정적 파일 서빙
+if os.path.exists("frontend/dist"):
+    app.mount("/static", StaticFiles(directory="frontend/dist/static"), name="static")
+else:
+    # 빌드된 파일이 없을 경우 간단한 HTML 반환
+    @app.get("/")
+    async def read_root():
+        return {
+            "status": "🚀 StockOracle API is running!",
+            "version": "1.0.0",
+            "endpoints": {
+                "health": "/health",
+                "investors": "/api/investors"
+            }
+        }
 
 # ==================== Run Server ====================
 

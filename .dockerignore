@@ -40,3 +40,8 @@ Thumbs.db
 # Scripts
 *.sh
 push_*.py
+
+# Advanced AI (for now, not needed in basic deployment)
+advanced_ai/
+prototype/
+data/
