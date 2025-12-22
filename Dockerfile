@@ -1,10 +1,10 @@
 FROM python:3.11-slim
 
-WORKDIR /app
+WORKDIR /stock
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
-ENV PYTHONPATH=/app
+ENV PYTHONPATH=/stock
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
@@ -24,5 +24,5 @@ COPY . .
 # Expose port
 EXPOSE 8000
 
-# Command to run the application
+# Change to stock directory and run the application
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

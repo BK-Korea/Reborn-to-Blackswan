@@ -30,17 +30,13 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Documentation
-*.md
-!README.md
-
-# Scripts
-*.sh
-push_*.py
-
 # Cache
 .cache
 .nyc_output
 
 # Logs
 *.log
+
+# Scripts
+*.sh
+push_*.py
