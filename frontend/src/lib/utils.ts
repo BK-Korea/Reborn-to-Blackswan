@@ -122,6 +122,21 @@ export function debounce<T extends (...args: any[]) => any>(
   };
 }
 
+export function getRecommendationColor(recommendation: string): string {
+  switch (recommendation.toLowerCase()) {
+    case 'strong_buy':
+    case 'buy':
+      return 'text-success-600';
+    case 'hold':
+      return 'text-yellow-600';
+    case 'sell':
+    case 'strong_sell':
+      return 'text-danger-600';
+    default:
+      return 'text-gray-600';
+  }
+}
+
 export function extractTickerFromText(text: string): string[] {
   // Simple regex to find tickers (1-5 uppercase letters)
   const tickerRegex = /\b[A-Z]{1,5}\b/g;
