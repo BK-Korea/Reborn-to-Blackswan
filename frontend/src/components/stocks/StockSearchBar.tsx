@@ -2,7 +2,7 @@
 
 import React, { useState, useCallback } from 'react';
 import { Search, TrendingUp, X } from 'lucide-react';
-import { debounce } from '@/lib/utils';
+import { debounce, cn } from '@/lib/utils';
 import { Stock } from '@/types';
 
 interface StockSearchBarProps {
