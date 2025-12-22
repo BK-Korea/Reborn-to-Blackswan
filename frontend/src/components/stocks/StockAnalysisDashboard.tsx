@@ -26,9 +26,9 @@ const recommendationLabels = {
   strong_sell: 'Strong Sell',
 };
 
-export function StockAnalysisDashboard({
+export const StockAnalysisDashboard: React.FC<StockAnalysisDashboardProps> = ({
   analysis,
-}: StockAnalysisDashboardProps) => {
+}) => {
   const recommendationPercentage = (analysis.recommendation.score / analysis.recommendation.maxScore) * 100;
 
   return (
