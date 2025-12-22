@@ -40,12 +40,14 @@ export const InvestorInsightCard: React.FC<InvestorInsightCardProps> = ({
 }) => {
   const Icon = sourceTypeIcons[insight.sourceType] || MessageCircle;
 
+  const sentimentStr = String(insight.sentiment);
+  
   return (
     <div className={cn(
       'card border-l-4 transition-all duration-300 hover:shadow-xl group',
       getSentimentBgColor(insight.sentiment),
-      insight.sentiment.includes('bullish') && 'border-l-success-500',
-      insight.sentiment.includes('bearish') && 'border-l-danger-500',
+      sentimentStr.includes('bullish') && 'border-l-success-500',
+      sentimentStr.includes('bearish') && 'border-l-danger-500',
       insight.sentiment === 'neutral' && 'border-l-gray-400',
       compact && 'p-4',
       !compact && 'p-6',
