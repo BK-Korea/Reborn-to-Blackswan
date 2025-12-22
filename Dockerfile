@@ -18,9 +18,12 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy frontend and install dependencies
+# Copy frontend and install dependencies with cache busting
+COPY frontend/package*.json ./frontend/
+RUN cd frontend && rm -rf .next node_modules package-lock.json && npm install
+
+# Copy frontend source code
 COPY frontend/ ./frontend/
-RUN cd frontend && rm -rf .next && npm install
 
 # Build frontend - Next.js static export
 RUN cd frontend && npm run build
